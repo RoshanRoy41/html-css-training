@@ -163,3 +163,52 @@ body{
 .departments-card a{
     color: #17C1A3 ;
 }
+
+.why-gg{
+    display:flex;
+    background-color: #E8F9F6;
+    margin-top: 60px;
+    height: 450px;
+}
+
+.why-gg-image_container{
+    flex:2;
+    position:relative;
+    display:inline;
+    overflow:hidden;
+
+}
+
+
+.image2{
+    position:absolute;
+    bottom:5;
+    left:0;
+    width: 100%;
+}
+
+.why-gg-image_container img{
+   
+    width: 100%;
+    margin: 0;
+    
+}
+
+.design-image{
+    opacity:50%;
+}
+
+.why-gg-content{
+    flex:1;
+    padding:60px 50px 0px 0px;
+}
+
+.why-gg-title{
+    font-size:25px;
+    font-weight: bold;
+}
+
+.why-gg-content li{
+    list-style-image: url("list.png") ;
+    padding: 4px;
+}
