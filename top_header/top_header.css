@@ -5,6 +5,7 @@ body{
     margin-left:100px;
     margin-right:100px;
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 
@@ -167,7 +168,7 @@ body{
 .why-gg{
     display:flex;
     background-color: #E8F9F6;
-    margin-top: 60px;
+    margin-top: 150px;
     height: 450px;
 }
 
@@ -200,11 +201,11 @@ body{
 
 .why-gg-content{
     flex:1;
-    padding:60px 50px 0px 0px;
+    padding:55px 50px 0px 0px;
 }
 
 .why-gg-title{
-    font-size:25px;
+    font-size:27px;
     font-weight: bold;
 }
 
@@ -212,3 +213,114 @@ body{
     list-style-image: url("list.png") ;
     padding: 4px;
 }
+
+.doctors-card-container{
+    display: flex;
+}
+
+.doctors-card{
+    flex:1;
+}
+
+.doctors{
+    margin-top: 150px;
+}
+
+.doctors-title-container{
+    justify-content: center;
+}
+
+.doctors-title{
+    font-size: 27px;
+    font-weight: bolder;
+    letter-spacing: 1;
+}
+
+.doctors-title-container p{
+    text-align: center;
+    line-height: 0.5;
+    line-height: 0.2;
+}
+
+
+
+
+.doctors-card img{
+    width: 260px;
+    
+}
+
+.doctors-speciality{
+    font-size: 15px;
+    
+}
+
+.doctors-card{
+    margin-top: 35px;
+    text-align: center;
+    line-height: 0.5;
+}
+.doctors-name{
+    font-size: 23px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+
+.doctors-button-container{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.doctors-button-container button{
+    color:white;
+    background-color: #17C1A3;
+    border: 0;
+    width:155px;
+    height: 45px;
+    border-radius:5px;
+}
+
+.doctors-button-container button:hover{
+    box-shadow:0px 4px 15px 2px rgba(0, 0, 0, 0.07);
+    cursor: pointer;
+}
+
+
+.facilities{
+    margin-top: 150px;
+    width:100%;
+}
+
+.facilities-title-container{
+    display: flex;
+}
+
+.facilities-title p{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.facilities-arrow{
+    flex:1;
+    float: right;
+
+}
+
+.facilities-image-container{
+    display:flex;
+    width:100%;
+}
+
+.facilities-image{
+    flex:1;
+    overflow: hidden;
+}
+
+.facilities-image img{
+    width: 350px;
+    margin: 2px;
+}
+
+
+

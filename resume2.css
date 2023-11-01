@@ -7,7 +7,9 @@ body {
   display:flex;
   background-color:#333 ;
   height: 100px;
- 
+  width: 100%;
+  position: relative;
+  
 }
 
 .header h1{
@@ -121,15 +123,11 @@ body {
   flex:1;
 }
 
-
-
-
-
 .skills{
   padding: 50px;
   display:flex;
   height: 280px;
-  background-color: #04AA6D ;
+  background-color: #cfcfcf ;
  
 }
 .skills-title{
@@ -137,23 +135,31 @@ body {
   
   margin-left: 10%;
   overflow: visible;
+  position: relative;
+  display:inline;
+  overflow:hidden;
 }
 
 .skills-title img{
-  height: 200px;
-  width: 200px;
-  opacity: 98%;;
+  height: 260px;
+  width: 250px;
+  opacity: 98%;
+  position:absolute;
+  left:-15px;
   
 }
 .skills-title p{
   float:right;
-  padding-right: 180px;
-  font-size:65px;
-
+  left: 250px;
+  bottom: 30px;
+  font-size:76px;
+  position: absolute;
 }
+
 
 .skills-details{
   flex:1;
+  
 }
 
 
@@ -161,27 +167,32 @@ body {
 .projects{
   padding: 50px;
   display:flex;
-  height: 280px;
- 
+  height: 320px;
+  
 }
 .projects-title{
   flex:1;
-  
   margin-left: 10%;
   overflow: visible;
+  position:relative;
 }
 
 .projects-title img{
-  height: 200px;
-  width: 200px;
-  opacity: 98%;;
+  height: 300px;
+  width: 300px;
+  opacity: 98%;
+  bottom:70px;
+  position: absolute;
+
   
 }
 .projects-title p{
   float:right;
   padding-right: 180px;
   font-size:65px;
-
+  left:40px;
+  bottom: -40px;
+  position: absolute;
 }
 
 .projects-details{
@@ -189,7 +200,16 @@ body {
 }
 
 
-.projects-details table,tr,th{
-  
+.projects-details table,tr,th,td{
+  border: solid black 2px;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 21px;
+  font-size: 17px;
 }
 
+
+
+.project-details{
+ 
+}
