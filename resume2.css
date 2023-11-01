@@ -1,0 +1,195 @@
+body {
+  margin:0;
+}
+
+
+.header {
+  display:flex;
+  background-color:#333 ;
+  height: 100px;
+ 
+}
+
+.header h1{
+  color: white;
+  padding: 10px 0px 10px 40px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+
+}
+
+
+.nav-bar{
+  display: flex;
+  padding-top:25px;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.nav-bar a {
+  
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.nav-bar a:hover:not(.active) {
+  background-color: #111;
+}
+
+.home-container{
+    display: flex;
+    padding:20px;
+    padding-top: 50px;
+    background-color:rgb(214, 214, 214);
+    height:500px;
+}
+.active {
+  background-color: #04AA6D;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #c8cac9;
+  display:flex;
+}
+
+.contact-container{
+  padding-left:100px;
+}
+.contact-details{
+  display:flex;
+  margin-left: 20px;
+  padding-left: 50px;
+  
+}
+
+.contact-details p{
+  font-size: 15px;
+  padding-left: 150px;
+  padding-top: 10px;
+}
+
+.container{
+  
+}
+.image-container{
+  flex:1;
+  padding-left:200px;
+  margin: 0;
+}
+
+.image-container img{
+  width:300px;
+  height: 380px;
+  border-radius: 50%;
+
+}
+
+.content-container{
+  flex:1;
+  padding-right:400px;
+  padding-top: 100px;
+  margin: 0;
+
+  
+}
+
+.home-title{
+  font-size: 40px;
+  font-weight:bold;
+}
+
+.qualifications{
+  padding: 50px;
+  display:flex;
+  height: 280px;
+ 
+}
+.qualification-title{
+  flex:1;
+  font-size:60px;
+  margin-left: 10%;
+}
+
+.qualification-details{
+  flex:1;
+}
+
+
+
+
+
+.skills{
+  padding: 50px;
+  display:flex;
+  height: 280px;
+  background-color: #04AA6D;
+ 
+}
+.skills-title{
+  flex:1;
+  
+  margin-left: 10%;
+  overflow: visible;
+}
+
+.skills-title img{
+  height: 200px;
+  width: 200px;
+  opacity: 98%;;
+  
+}
+.skills-title p{
+  float:right;
+  padding-right: 180px;
+  font-size:65px;
+
+}
+
+.skills-details{
+  flex:1;
+}
+
+
+
+.projects{
+  padding: 50px;
+  display:flex;
+  height: 280px;
+ 
+}
+.projects-title{
+  flex:1;
+  
+  margin-left: 10%;
+  overflow: visible;
+}
+
+.projects-title img{
+  height: 200px;
+  width: 200px;
+  opacity: 98%;;
+  
+}
+.projects-title p{
+  float:right;
+  padding-right: 180px;
+  font-size:65px;
+
+}
+
+.projects-details{
+  flex:2;
+}
+
+
+.projects-details table,tr,th{
+  
+}
+

@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(147, 236, 236);
+}
+
+#First-heading{
+    color: white;
+    text-align: center;
+}
+
+.Heading{
+    color: red;
+    text-align: center;
+}
+
+#First-List {
+    background-color: rgb(226, 64, 59) ;
+    border:solid rgb(226, 64, 59);
+}
+
+#First-List li{
+   background-color:  azure;
+    
+}
+
+
+
+#Second-List {
+    background-color: rgb(84, 59, 226) ;
+    border: dashed  rgb(84, 59, 226) ;
+}
+
+
+
+#Second-List li {
+    margin: 5px;
+    background-color: rgb(210, 222, 230);
+}
+
+
+position: relative;
+text-align:center;
+padding: 2% 5%;
