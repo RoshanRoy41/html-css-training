@@ -1,3 +1,6 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
 .container{
     margin-left:100px;
     margin-right:100px;
@@ -32,7 +35,7 @@
 
 .image-text {
    position: absolute;
-   font-family: Helvetica, Arial, sans-serif;
+   
    left: 12%;
    bottom:20%;
    
@@ -65,6 +68,7 @@
     padding: 20px ;
     width: 1000px ;
     border-radius: 20px;
+    box-shadow:0px 4px 15px 2px rgba(0, 0, 0, 0.07);
 }
 
 .book-appointment 
@@ -106,6 +110,56 @@
     font-weight: bold;
     word-spacing: 2px;
     margin: 3px 15px 0px;
-    font-family: Helvetica, Arial, sans-serif;
     
+    
+}
+
+
+.departments-title-section{
+    display: flex;
+}
+
+.departments-title{
+    flex:1;
+}
+
+.departments-title p{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.;
+}
+.departments-arrow{
+    flex: flex-end ;
+    padding-top: 70px;
+    
+}
+
+.departments-card-container{
+    display: flex;
+    overflow: hidden;
+   
+}
+
+.departments-card{
+    flex:1;
+    margin-right: 30px;
+}
+
+
+.departments-card img{
+   width: 100%;
+}
+
+.departments_card_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.departments_card_title p{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.departments-card a{
+    color: #17C1A3 ;
 }
